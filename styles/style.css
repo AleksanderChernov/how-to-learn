@@ -37,21 +37,6 @@
   opacity: 0;
 }
 
-.logo:hover {
-  visibility: hidden;
-}
-
-.logo:hover .link__text {
-  color: white;
-  background: linear-gradient(to right, #ff9800, #2f80ed);
-  background-size: 200% 100%;
-  background-position: right bottom;
-  transition: all 2s ease;
-  border-radius: 10px 10px 10px;
-  opacity: 1;
-  z-index: 2;
-}
-
 .logo_place_header {
   top: 30px;
   left: 64px;
