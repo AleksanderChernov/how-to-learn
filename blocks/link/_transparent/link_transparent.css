@@ -1,4 +1,4 @@
-.link__text_transparent:hover {
+.link_transparent:hover {
   transition: opacity .5s ease-in;
   opacity: 0.4;
 }
