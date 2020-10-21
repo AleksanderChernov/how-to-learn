@@ -73,7 +73,7 @@
 
 /* Links */
 @import url(../../blocks/link/__text/link__text.css);
-@import url(../../blocks/link/_transparent/link_transparent.css);
+@import url(../../blocks/link/__text/_transparent/link__text_transparent.css);
 
 /* Resources block */
 @import url(../../blocks/resources/resources.css);
