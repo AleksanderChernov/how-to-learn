@@ -13,7 +13,7 @@
 
 /* Links */
 @import url(../../blocks/link/__text/link__text.css);
-@import url(../../blocks/link/_style/link_style_transparent.css);
+@import url(../../blocks/link/__style/link__style_transparent.css);
 
 /* Logo */
 @import url(../../blocks/logo/logo.css);
