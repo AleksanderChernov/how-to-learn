@@ -1,0 +1,12 @@
+.link__text {
+  padding: 5px;
+  width: 183px;
+  height: 65px;
+  font-size: 25px;
+  text-align: center;
+  font-weight: bold;
+  margin: 0;
+  position: absolute;
+  text-decoration: none;
+  opacity: 0;
+}

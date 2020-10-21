@@ -1,0 +1,9 @@
+.footer__link {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  text-decoration: none;
+  color: white;
+  background-size: 200% 100%;
+  background-position: left bottom;
+}

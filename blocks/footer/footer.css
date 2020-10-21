@@ -1,0 +1,7 @@
+.footer {
+  min-height: 350px;
+  display: flex;
+  color: white;
+  overflow: hidden;
+  background-color: #1f1f1f;
+}

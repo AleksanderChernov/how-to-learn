@@ -1,0 +1,17 @@
+.feinman__link {
+  margin: 0;
+  top: 50%;
+  right: 48px;
+  position: absolute;
+  color: #2f80ed;
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: normal;
+  text-decoration: none;
+  background-size: 200% 100%;
+  background-position: left bottom;
+}
+
+.feinman__link::after {
+  content: " →";
+}
