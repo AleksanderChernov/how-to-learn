@@ -1,8 +1,0 @@
-.link__style_transparent {
-  opacity: 1;
-}
-
-.link__style_transparent:hover {
-  transition: opacity .5s ease-in;
-  opacity: 0.4;
-}
