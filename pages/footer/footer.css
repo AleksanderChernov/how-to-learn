@@ -12,7 +12,7 @@
 @import url(../../blocks/footer/__social-icon/footer__social-icon.css);
 
 /* Links */
-@import url(../../blocks/link/__text/_transparent/link_transparent.css);
+@import url(../../blocks/link/_transparent/link_transparent.css);
 
 /* Logo */
 @import url(../../blocks/logo/logo.css);
