@@ -7,3 +7,8 @@
   background-size: 200% 100%;
   background-position: left bottom;
 }
+
+.footer__link:hover {
+  transition: opacity .5s ease-in;
+  opacity: 0.4;
+}

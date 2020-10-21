@@ -3,10 +3,8 @@
 
 <head>
   <meta charset="UTF-8" />
-  <link rel="stylesheet" href="pages/content/content.css" />
-  <link rel="stylesheet" href="pages/header/header.css" />
-  <link rel="stylesheet" href="pages/footer/footer.css" />
   <link rel="stylesheet" href="vendor/normalize.css" />
+  <link rel="stylesheet" href="pages/index.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="description" content="Обучение, методы" />
   <meta name="author" content="Aleksander Chernov" />
@@ -16,13 +14,13 @@
 <body>
   <div class="page">
     <header class="header">
-      <a href="https://praktikum.yandex.ru" class="logo logo_place_header link" title="логотип яндекс-практикум">
+      <a href="https://praktikum.yandex.ru" class="logo logo_place_header" title="логотип яндекс-практикум">
       </a>
       <h1 class="header__title">Научиться учиться</h1>
       <p class="header__subtitle">
         Какие современные и эффективные подходы к обучению вы можете
         использовать в своей жизни?
-        <a href="#" class="header__link link">Узнать</a>
+        <a href="#" class="header__link">Узнать</a>
       </p>
       <img class="header__main-illustration" src="images/header/header-image.png" alt="Картина 'Опять двойка'" />
       <div class="header__square-pic rotate"></div>
@@ -95,10 +93,10 @@
       <section class="video">
         <h2 class="section-title">Видео на TED</h2>
         <p class="section-subtitle">Для тех, кто любит прокрастинировать</p>
-        <ul class="video__iframe">
+        <div class="video__iframe">
           <iframe class="video__iframes" src="https://www.youtube.com/embed/arj7oStGLkU" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           <iframe class="video__iframes" src="https://www.youtube.com/embed/5MgBikgcWnY" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </ul>
+        </div>
       </section>
       <section class="oakley">
         <article class="two-columns">
@@ -113,7 +111,7 @@
       <section class="feinman" title="Фото Фейнмана с синим кругом на заднем плане">
         <h2 class="feinman__title">Метод Фейнмана</h2>
         <p class="feinman__subtitle">Выучить и не забыть.</p>
-        <a href="#" class="feinman__link link">Подробнее</a>
+        <a href="#" class="feinman__link">Подробнее</a>
       </section>
       <section class="digits">
         <h2 class="section-title">Цифры и факты</h2>
@@ -167,12 +165,14 @@
         <article class="khan__container">
           <p class="khan__author">Салман Хан</p>
           <h3 class="khan__title">Весь мир — школа</h3>
-          <p class="khan__quote">Страсть и новаторство Сала Хана меняют процесс обучения миллионов студентов по всему миру. Книгу «Весь мир — школа» нужно прочитать всем, кто занимается образованием — так учащиеся повсюду смогут получить навыки и знания, которые приносят успех в школе, карьере и жизни.</p>
+          <blockquote class="khan__quote">
+            Страсть и новаторство Сала Хана меняют процесс обучения миллионов студентов по всему миру. Книгу «Весь мир — школа» нужно прочитать всем, кто занимается образованием — так учащиеся повсюду смогут получить навыки и знания, которые приносят успех в школе, карьере и жизни.
+          </blockquote>
           <p class="khan__quote-author">Джордж Лукас</p>
           <p class="khan__quote-author-subline">Кинорежиссер, продюсер</p>
           <div class="khan__book-container">
             <img src="images/khan/khan-book.jpg" alt="Обложка книги 'Весь мир - школа'" class="khan__book-pic">
-            <a class="khan__buy-link link" href="#">Купить книгу →</a>
+            <a class="khan__buy-link" href="#">Купить книгу →</a>
           </div>
         </article>
       </section>
@@ -251,17 +251,17 @@
         <h2 class="section-title">Полезные ресурсы</h2>
         <p class="section-subtitle">Больше материалов о техниках и лайфхаках обучения</p>
           <ul class="resources__logo-zone">
-            <li><a href="#" class="link"><img class="resources__logo" src="images/resources-logo/resources-arzamas.svg" alt="Лого Арзамас"></a></li>
-            <li><a href="#" class="link"><img class="resources__logo" src="images/resources-logo/resources-n1.svg" alt="Лого N1"></a></li>
-            <li><a href="#" class="link"><img class="resources__logo" src="images/resources-logo/resources-strelka.svg" alt="Лого Стрелка"></a></li>
-            <li ><a href="#" class="link"><img class="resources__logo" src="images/resources-logo/resources-polka.svg" alt="Лого Полка" ></a></li>
+            <li><a href="#"><img class="resources__logo" src="images/resources-logo/resources-arzamas.svg" alt="Лого Арзамас"></a></li>
+            <li><a href="#"><img class="resources__logo" src="images/resources-logo/resources-n1.svg" alt="Лого N1"></a></li>
+            <li><a href="#"><img class="resources__logo" src="images/resources-logo/resources-strelka.svg" alt="Лого Стрелка"></a></li>
+            <li ><a href="#"><img class="resources__logo" src="images/resources-logo/resources-polka.svg" alt="Лого Полка" ></a></li>
           </ul>
       </section>
     </main>
     <footer class="footer">
       <div class="footer__columns">
         <div class="footer__column footer__column_content_copyright">
-          <a href="#" class="logo logo_place_footer link" title="логотип яндекс-практикум">
+          <a href="#" class="logo logo_place_footer" title="логотип яндекс-практикум">
           </a>
           <p class="footer__author">&copy; 2019. Виктор Абанькин</p>
         </div>
@@ -269,9 +269,9 @@
           <h3 class="footer__column-heading">О Практикуме</h3>
           <nav class="footer__column-nav">
             <ul class="footer__column-links">
-              <li><a class="footer__link link" href="#">Главная</a></li>
-              <li><a class="footer__link link" href="#">Концепция</a></li>
-              <li><a class="footer__link link" href="#">Наставники</a></li>
+              <li><a class="footer__link" href="#">Главная</a></li>
+              <li><a class="footer__link" href="#">Концепция</a></li>
+              <li><a class="footer__link" href="#">Наставники</a></li>
             </ul>
           </nav>
         </div>
@@ -280,15 +280,15 @@
           <nav class="footer__column-nav">
             <ul class="footer__column-links">
               <li>
-                <a class="footer__link link" href="#"><img class="footer__social-icon" src="images/footer-logos/facebook_color_white.svg"
+                <a class="footer__link" href="#"><img class="footer__social-icon" src="images/footer-logos/facebook_color_white.svg"
                     alt="Иконка Facebook" />Facebook</a>
               </li>
               <li>
-                <a class="footer__link link" href="#"><img class="footer__social-icon" src="images/footer-logos/vk_color_white.svg"
+                <a class="footer__link" href="#"><img class="footer__social-icon" src="images/footer-logos/vk_color_white.svg"
                     alt="Иконка ВКонтакте" />ВКонтакте</a>
               </li>
               <li>
-                <a class="footer__link link" href="#"><img class="footer__social-icon" src="images/footer-logos/instagram_color_white.svg"
+                <a class="footer__link" href="#"><img class="footer__social-icon" src="images/footer-logos/instagram_color_white.svg"
                     alt="Иконка Instagram" />Instagram</a>
               </li>
             </ul>

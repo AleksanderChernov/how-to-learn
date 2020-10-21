@@ -15,3 +15,8 @@
 .feinman__link::after {
   content: " →";
 }
+
+.feinman__link:hover {
+  transition: opacity .5s ease-in;
+  opacity: 0.4;
+}
