@@ -1,3 +1,6 @@
+/* Normalize CSS */
+@import url(../vendor/normalize.css);
+
 /* Body style */
 @import url(../blocks/page/page.css);
 
@@ -91,7 +94,6 @@
 /* Footer */
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__author/footer__author.css);
-@import url(../blocks/footer/__column/footer__column-heading.css);
 @import url(../blocks/footer/__column/footer__column.css);
 @import url(../blocks/footer/__column/_content/footer__column_content_copyright.css);
 @import url(../blocks/footer/__column/_content/footer__column_content_info.css);
